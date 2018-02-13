@@ -22,3 +22,31 @@ a[target] {
     padding: 5px;
     border: 5px dashed black;
 }
+
+p::first-letter {
+    font-size: 24px;
+}
+
+#p-first::first-line {
+    color: #F90101;
+}
+
+/*exercise 6*/
+/*div p {*/
+    /*color: magenta;*/
+/*}*/
+
+/*exercise 7*/
+/*div > p {*/
+     /*color: magenta;*/
+/*}*/
+
+/*exercise 8*/
+/*div ~ p {*/
+    /*color: magenta;*/
+/*}*/
+
+/*exercise 9*/
+div + p {
+    color: magenta;
+}
