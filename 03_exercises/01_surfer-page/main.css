@@ -1,0 +1,42 @@
+html {
+    background-color: #00539f;
+}
+
+body {
+    width: 70%;
+    margin: auto;
+    background-color: #00C957;
+    border: 5px solid black;
+
+}
+
+#surf {
+    display: block;
+    margin: 30px auto;
+    width: 70%;
+    border-radius: 50%;
+    border: 10px ridge gold;
+    box-sizing: border-box;
+}
+
+h1, p {
+    font-family: "Avenir Next";
+}
+
+h1 {
+    font-size: 32px;
+    margin: 50px 0 0 20px;
+}
+
+p {
+    margin: 20px;
+    font-size: 20px;
+}
+
+#header-first {
+    color: #0266C8;
+}
+
+#header-second {
+    color: #F90101;
+}
