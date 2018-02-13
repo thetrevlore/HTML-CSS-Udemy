@@ -5,3 +5,20 @@
 .li-four-five-six {
     color: blue;
 }
+
+a {
+    color: dodgerblue;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: fuchsia;
+}
+
+a[target] {
+    padding: 5px;
+    border: 5px dashed black;
+}
