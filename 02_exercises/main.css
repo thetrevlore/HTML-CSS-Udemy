@@ -1,0 +1,21 @@
+.div1 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 25%;
+    border: groove 20px;
+    background-image: url("../img/pup.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div2 {
+    width: 400px;
+    height: 200px;
+    border: 10px dashed red;
+    margin: 20px auto;
+}
+
+#second {
+    box-sizing: border-box;
+}
