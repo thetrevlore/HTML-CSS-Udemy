@@ -36,11 +36,24 @@
 
 /*exercise 4*/
 /*1 specificity*/
-p {
-    color: blue;
-}
+/*p {*/
+    /*color: blue;*/
+/*}*/
 
 /*10 specificity*/
-[name] {
-    color: red;
-}
+/*[name] {*/
+    /*color: red;*/
+/*}*/
+
+
+/*exercise 5*/
+/*10 specificity*/
+/*.one {*/
+    /*color: red;*/
+/*}*/
+
+/*10 specificity*/
+/*Same specificity number, but since this comes after, this wins out.*/
+/*[name] {*/
+    /*color: blue;*/
+/*}*/
