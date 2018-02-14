@@ -32,3 +32,15 @@
 /*.one {*/
     /*color: blue;*/
 /*}*/
+
+
+/*exercise 4*/
+/*1 specificity*/
+p {
+    color: blue;
+}
+
+/*10 specificity*/
+[name] {
+    color: red;
+}
