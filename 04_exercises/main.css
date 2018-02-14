@@ -12,11 +12,23 @@
 
 /*exercise 2*/
 /*1 specificity point*/
-p {
-    color: blue;
-}
+/*p {*/
+    /*color: blue;*/
+/*}*/
 
-/*100 specificity point*/
-#thing {
-    color: red;
-}
+/*!*100 specificity point*!*/
+/*#thing {*/
+    /*color: red;*/
+/*}*/
+
+
+/*exercise 3*/
+/*1 specificity*/
+/*p {*/
+    /*color: red;*/
+/*}*/
+
+/*10 specificity*/
+/*.one {*/
+    /*color: blue;*/
+/*}*/
