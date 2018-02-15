@@ -31,10 +31,20 @@
 
 
 /*exercise 5*/
+/*html {*/
+    /*font-family: 'Roboto', sans-serif;*/
+/*}*/
+
+/*p:first-line {*/
+    /*letter-spacing: .5rem;*/
+/*}*/
+
+
+/*exercise 6*/
 html {
     font-family: 'Roboto', sans-serif;
 }
 
-p:first-line {
-    letter-spacing: .5rem;
+h1 {
+    text-shadow: 2px 2px 1px gray;
 }
