@@ -20,11 +20,21 @@
 
 
 /*exercise 4*/
+/*html {*/
+    /*font-family: 'Roboto', sans-serif;*/
+/*}*/
+
+/*p {*/
+    /*text-transform: uppercase;*/
+    /*font-style: italic;*/
+/*}*/
+
+
+/*exercise 5*/
 html {
     font-family: 'Roboto', sans-serif;
 }
 
-p {
-    text-transform: uppercase;
-    font-style: italic;
+p:first-line {
+    letter-spacing: .5rem;
 }
