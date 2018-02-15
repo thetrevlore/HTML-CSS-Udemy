@@ -4,6 +4,16 @@
 /*}*/
 
 /*exercise 2*/
+/*html {*/
+    /*font-family: sans-serif;*/
+/*}*/
+
+/*exercise 3*/
 html {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+p::first-line {
+    font-weight: 700;
 }
