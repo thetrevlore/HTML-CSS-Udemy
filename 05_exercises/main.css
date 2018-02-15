@@ -41,10 +41,16 @@
 
 
 /*exercise 6*/
-html {
-    font-family: 'Roboto', sans-serif;
-}
+/*html {*/
+    /*font-family: 'Roboto', sans-serif;*/
+/*}*/
 
-h1 {
-    text-shadow: 2px 2px 1px gray;
+/*h1 {*/
+    /*text-shadow: 2px 2px 1px gray;*/
+/*}*/
+
+
+/*exercise 7*/
+a {
+    text-decoration: none;
 }
