@@ -9,11 +9,22 @@
 /*}*/
 
 /*exercise 3*/
+/*html {*/
+    /*font-family: 'Roboto', sans-serif;*/
+    /*font-weight: 400;*/
+/*}*/
+
+/*p::first-line {*/
+    /*font-weight: 700;*/
+/*}*/
+
+
+/*exercise 4*/
 html {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
 }
 
-p::first-line {
-    font-weight: 700;
+p {
+    text-transform: uppercase;
+    font-style: italic;
 }
