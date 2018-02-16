@@ -1,0 +1,15 @@
+.container {
+    border: .2rem solid red;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.item {
+    width: 6rem;
+    height: 3rem;
+    margin: 1rem;
+    border: .07rem solid red;
+    background-color: lightgray;
+    text-align: center;
+    flex-grow: 1;
+}
