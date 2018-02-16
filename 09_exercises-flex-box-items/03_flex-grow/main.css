@@ -5,14 +5,14 @@ body {
 }
 
 div {
-    width: 150px;
     height: 100px;
     margin: 1em;
     border: 1px solid red;
     background-color: darkgray;
     text-align: center;
+    flex-grow: 1;
 }
 
-.otras {
-    align-self: flex-end;
+#tres {
+    flex-grow: 4;
 }

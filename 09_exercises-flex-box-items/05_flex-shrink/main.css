@@ -1,11 +1,10 @@
 body {
     display: flex;
-    height: 36rem;
     border: 5px solid red;
 }
 
 div {
-    width: 150px;
+    width: 15rem;
     height: 100px;
     margin: 1em;
     border: 1px solid red;
@@ -13,6 +12,7 @@ div {
     text-align: center;
 }
 
-.otras {
-    align-self: flex-end;
+#s2 {
+   flex-shrink: 2;
 }
+
