@@ -13,6 +13,6 @@ div {
     text-align: center;
 }
 
-.otras {
-    align-self: flex-end;
+#uno {
+    order: 1;
 }
