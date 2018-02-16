@@ -1,12 +1,12 @@
 .container {
     border: 5px solid red;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     flex-wrap: wrap;
 }
 
 .item {
-    width: 200px;
+    width: 150px;
     height: 100px;
     margin: 1em;
     border: 1px solid red;

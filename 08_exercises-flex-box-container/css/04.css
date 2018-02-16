@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-flow: column-reverse wrap;
+    height: 26rem;
+    border: .2rem solid red;
+}
+
+.item {
+    flex-grow: 1;
+    width: 6rem;
+    height: 4rem;
+    margin: .7rem;
+    border: .07rem solid red;
+    background-color: lightgray;
+    text-align: center;
+}
