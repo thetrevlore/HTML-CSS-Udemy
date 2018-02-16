@@ -1,0 +1,15 @@
+.item {
+    width: 50%;
+}
+
+.secondary {
+    width: 25%;
+}
+
+#dos {
+    order: -1;
+}
+
+.item3 {
+    width: 50%;
+}
