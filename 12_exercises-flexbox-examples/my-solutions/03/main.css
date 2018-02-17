@@ -1,0 +1,49 @@
+html, body, nav, main, ul, li, article, p {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: 20px auto 0 auto;
+}
+
+nav, main {
+    border: 2px solid red;
+}
+
+article {
+    margin: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+p:first-child, p:nth-child(2) {
+    margin-bottom: 10px;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0 auto;
+}
+
+li {
+    margin: 10px;
+}
+
+a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}

@@ -1,0 +1,15 @@
+article {
+    width: 70%;
+}
+
+aside {
+    width: 15%;
+}
+
+aside:nth-child(3) {
+    order: -1;
+}
+
+header {
+    order: -2;
+}

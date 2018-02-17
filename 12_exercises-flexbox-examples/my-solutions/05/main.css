@@ -1,0 +1,17 @@
+html, body, header, nav, article, aside, footer, div {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header, nav, article, aside, footer {
+    border: 1px solid black;
+    text-align: center;
+    background-color: #fdffcd;
+    line-height: 40px;
+}
+
+body {
+    margin: 10px;
+}

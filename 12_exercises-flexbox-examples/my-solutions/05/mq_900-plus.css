@@ -1,0 +1,14 @@
+div {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+nav, aside {
+    flex-grow: 1
+}
+
+article {
+    flex-grow: 3;
+}
+
+
