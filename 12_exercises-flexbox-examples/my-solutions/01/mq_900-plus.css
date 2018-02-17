@@ -1,0 +1,20 @@
+nav {
+    background-color: deepskyblue;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    flex-flow: row nowrap;
+    width: 33%;
+}
+
+li {
+    flex-grow: 1;
+
+}
+
+a {
+    display: inline;
+    font-size: 1.3rem
+}
