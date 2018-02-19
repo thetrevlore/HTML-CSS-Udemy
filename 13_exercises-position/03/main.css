@@ -1,0 +1,19 @@
+#one {
+    position: relative;
+    width: 40rem;
+    height: 40rem;
+    background-color: rgba(255, 69, 0, .5);
+    border: .5rem solid rgba(255, 69, 0, 1);
+}
+
+#two {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 1rem;
+    width: 10rem;
+    height: 10rem;
+    background-color: rgba(205, 105, 180, .5);
+    border: .4rem solid rgba(205, 105, 180, 1);
+}
