@@ -1,0 +1,20 @@
+html, body, footer, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*uncomment this to give the page some scroll room. To confirm footer stays at the bottom.*/
+/*div {*/
+    /*height: 100rem;*/
+    /*border: 2px solid black;*/
+/*}*/
+
+footer {
+    border: 5px solid orangered;
+    background-color: rgba(255, 69, 0, .5);
+    height: 3rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
