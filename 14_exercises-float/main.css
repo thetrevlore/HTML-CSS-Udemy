@@ -1,0 +1,44 @@
+html, body, header, nav, ul, li, main, article, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width: 80%;
+    border: 2px solid black;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+nav {
+    float: left;
+    border: 2px solid red;
+    width: 20%;
+}
+
+main {
+    /*float: right;*/
+    border: 2px solid blue;
+    width: 80%;
+    overflow: auto;
+}
+
+img {
+    float: left;
+    /*margin: 100px 5px 5px;*/
+}
+
+/*#first {*/
+    /*float: right;*/
+/*}*/
+
+.no-float {
+    clear: both;
+}
