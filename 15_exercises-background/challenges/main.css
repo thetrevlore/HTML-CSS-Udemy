@@ -1,0 +1,120 @@
+/*Exercise Two - No scroll bar ATF*/
+body, header {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    /*box-sizing: border-box;*/
+}
+
+
+/*Exercise One AboveTheFold*/
+/*header {*/
+    /*background-color: red;*/
+    /*color: white;*/
+    /*height: 100vh;*/
+    /*text-align: center;*/
+    /*line-height: 100vh;*/
+    /*font-size: 16rem;*/
+/*}*/
+
+/*Exercise Three Background Image*/
+/*header {*/
+    /*background-image: url("../dog.png");*/
+    /*height: 100vh;*/
+/*}*/
+
+/*Exercise Four Background-Repeat*/
+/*header {*/
+    /*background-image: url("../dog.png");*/
+    /*background-repeat: repeat-y;*/
+    /*height: 100vh;*/
+/*}*/
+
+/*Exercise Five Background-Size*/
+/*header {*/
+    /*background-image: url("../dog.png");*/
+    /*background-repeat: repeat-y;*/
+    /*background-size: 500px 100px;*/
+    /*height: 100vh;*/
+/*}*/
+
+/*Exercise Six Background-Size Percentage*/
+/*header {*/
+    /*background-image: url("../dog.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 30%;*/
+    /*height: 100vh;*/
+    /*margin: 5px;*/
+/*}*/
+
+/*Exercise Seven Background-Size contain*/
+/*header {*/
+    /*background-image: url("../dog.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: contain;*/
+    /*width: 400px;*/
+    /*height: 400px;*/
+    /*margin: 0 5px 5px 5px;*/
+    /*border: 10px groove darkgoldenrod;*/
+/*}*/
+
+/*p {*/
+    /*margin: 5px 5px 0 5px;*/
+/*}*/
+
+/*Exercise Eight Background-Size cover*/
+/*header {*/
+    /*background-image: url("../dog.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*width: 400px;*/
+    /*height: 400px;*/
+    /*margin: 0 5px 5px 5px;*/
+    /*border: 10px groove darkgoldenrod;*/
+/*}*/
+
+/*p {*/
+    /*margin: 5px 5px 0 5px;*/
+/*}*/
+
+/*Exercise Nine Background-Position*/
+/*header {*/
+    /*background-image: url("../dog.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: 300px 10px;*/
+    /*width: 600px;*/
+    /*height: 600px;*/
+    /*margin: 0 5px 5px 5px;*/
+    /*border: 10px groove darkgoldenrod;*/
+/*}*/
+
+/*p {*/
+    /*margin: 15px;*/
+    /*font-size: 2rem;*/
+    /*font-weight: bold;*/
+/*}*/
+
+/*Exercise Ten Background-Origin*/
+article {
+
+}
+
+/*p {*/
+    /*margin: 15px;*/
+    /*font-size: 2rem;*/
+    /*font-weight: bold;*/
+/*}*/
+
+#main {
+    background-color: royalblue;
+    background-image: url("../dog.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: content-box;
+    padding: 20px;
+    width: 600px;
+    height: 700px;
+    margin: 0 5px 5px 5px;
+    border: 50px solid black;
+    color: white;
+}
