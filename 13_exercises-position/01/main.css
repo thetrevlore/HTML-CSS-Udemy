@@ -2,6 +2,7 @@ html, body, footer, div {
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 /*uncomment this to give the page some scroll room. To confirm footer stays at the bottom.*/
@@ -11,10 +12,11 @@ html, body, footer, div {
 /*}*/
 
 footer {
-    border: 5px solid orangered;
-    background-color: rgba(255, 69, 0, .5);
-    height: 3rem;
-    width: 100%;
+    box-sizing: border-box;
     position: fixed;
     bottom: 0;
+    width: 100%;
+    height: 3rem;
+    border: 5px solid orangered;
+    background-color: rgba(255, 69, 0, .5);
 }
