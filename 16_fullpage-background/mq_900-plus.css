@@ -5,3 +5,19 @@
 h1 {
     font-size: 2rem;
 }
+
+.idx-center-center {
+    margin-top: 20px;
+}
+
+#idx-center-spacebetween {
+    justify-content: center;
+}
+
+button {
+    margin-top: 40px;
+}
+
+h3 {
+    margin-top: 0.5rem;
+}
