@@ -3,12 +3,47 @@ header {
 }
 
 header div, header nav {
-    width: 20%;
+    width: 30%;
     height: 2rem;
 }
 
+header a {
+    margin: 0;
+}
+
+.idx-hdr-svg {
+    height: 100%;
+    fill: currentColor;
+    width: 30px;
+}
+
+.idx-hdr-svg:hover {
+    fill: #9dbb88;
+}
+
+div svg {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav a {
+    padding: 0 15px;
+    height: 100%;
+}
+
+header nav a:hover {
+    border-radius: 5px;
+    background-color: #404040;
+    color: #9dbb88;
+}
+
 #atf {
-    background-image: url("background-photo.jpg");
+    background-image: url("assets/background-photo.jpg");
 }
 
 h1 {
