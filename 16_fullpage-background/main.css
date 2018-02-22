@@ -15,19 +15,21 @@ header {
     flex-flow: row wrap;
 }
 
-header div, header nav {
+header div {
     margin: 5px;
     width: 100%;
     height: 1.5rem;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    /*align-items: center;*/
 }
 
 header a {
     text-decoration: none;
+    width: 100%;
     display: flex;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
+    justify-content: center;
     align-items: center;
     height: 100%;
 }

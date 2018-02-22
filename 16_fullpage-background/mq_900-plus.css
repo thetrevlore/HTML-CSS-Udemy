@@ -1,14 +1,22 @@
 header {
     justify-content: space-between;
+    height: 2.5rem;
 }
 
 header div, header nav {
-    width: 30%;
-    height: 2rem;
+    display: flex;
 }
 
-header a {
-    margin: 0;
+header div {
+    width: 30%
+}
+
+header nav {
+    width: 25%;
+}
+
+header div a {
+    justify-content: flex-start;
 }
 
 .idx-hdr-svg {
@@ -22,13 +30,7 @@ header a {
 }
 
 div svg {
-    display: inline-block;
-    margin-left: 5px;
-}
-
-header nav {
     display: flex;
-    justify-content: space-evenly;
 }
 
 header nav a {
