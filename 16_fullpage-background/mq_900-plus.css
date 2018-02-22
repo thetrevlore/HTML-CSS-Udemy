@@ -1,3 +1,12 @@
+header {
+    justify-content: space-between;
+}
+
+header div, header nav {
+    width: 20%;
+    height: 2rem;
+}
+
 #atf {
     background-image: url("background-photo.jpg");
 }
