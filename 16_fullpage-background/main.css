@@ -113,3 +113,35 @@ button:hover {
     background-color: rgb(202, 250, 234);
     cursor: pointer;
 }
+
+#nav-mobile {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#nav-mobile a {
+    text-decoration: none;
+    width: 100%;
+    height: 4rem;
+    background-color: deepskyblue;
+    border-top: solid 1px rgba(255, 255, 255, .1);
+    border-top: solid 1px rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+}
+
+#nav-mobile a:hover {
+    background-color: dodgerblue;
+}
+
+#nav-mobile svg {
+    fill: currentColor;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 40px;
+    margin-right: 15px;
+}
+
+#nav-mobile h1 {
+    font-size: 1.2rem;
+}

@@ -67,3 +67,7 @@ button {
 h3 {
     margin-top: 0.5rem;
 }
+
+#nav-mobile {
+    display: none;
+}
